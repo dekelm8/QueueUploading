@@ -5,6 +5,13 @@ Objective-C class for uploading files to server with Queue Operation and uploadi
 
 HOW TO USE:
 
+First go into HTTPRequest.m File and insert your Domain in BASEURL #typedef and the php file name (the php file that include the server code for handling with the received files)
+
+    #define kUrlUploadFiles @"scriptgettingfiles.php"
+    #define K_BASE_URL @"http://www.yourdomain.com"
+
+Import the class:
+
     #import "HTTPRequest.h"
 
 
